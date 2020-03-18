@@ -11,9 +11,9 @@ public class HelloService {
 	private static final Logger LOG = Logger.getLogger(HelloService.class.getName());
 
 	public String hello(final String str) {
-		LOG.info(()->"cmd2(): START: "+Util.threadInfo());
+		LOG.info(()->"hello(): START: "+Util.threadInfo());
 		final String result = "Hello, "+str+"!";
-		LOG.info(()->"cmd2(): END  : "+Util.threadInfo());
+		LOG.info(()->"hello(): END  : "+Util.threadInfo());
 		return result;
 	}
 }
