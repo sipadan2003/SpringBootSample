@@ -1,4 +1,4 @@
-package tv.minato.sbs.async1;
+package tv.minato.sbs.async;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.logging.Logger;

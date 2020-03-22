@@ -1,4 +1,4 @@
-package tv.minato.sbs.async1;
+package tv.minato.sbs.async;
 
 import java.util.HashMap;
 import java.util.Map;
